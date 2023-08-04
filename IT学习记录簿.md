@@ -313,7 +313,6 @@
 - 渠道：
   - 帖子：
       - **[Jetson Nano 从入门到实战（案例：Opencv配置、人脸检测、二维码检测）-CSDN博客](https://blog.csdn.net/qianbin3200896/article/details/103760640)**
-      - [手把手教你使用linux摄像头（V4L2框架）-CSDN博客](https://blog.csdn.net/small_po_kid/article/details/119913184)
 
 ### **深度学习-卷积神经网络**
 
@@ -343,7 +342,7 @@
   - 语言：Python
   - 框架：PaddlePaddle
   - [开源项目 - 飞桨AI Studio - 人工智能学习实训社区](https://aistudio.baidu.com/aistudio/projectoverview/)  
-- 开发项目
+- 实践项目
   - 手写数字识别（MNIST数据集）
 
 ### **目标检测**
@@ -360,7 +359,7 @@
   - 框架：PaddlePaddle
   - [开源项目 - 飞桨AI Studio - 人工智能学习实训社区](https://aistudio.baidu.com/aistudio/projectoverview/)
   
-- 开发项目
+- 实践项目
   - 识别螺丝与垫片（VOC数据集）
 
 #### YOLOv5
@@ -381,7 +380,7 @@
   - 框架：PaddlePaddle
   - [开源项目 - 飞桨AI Studio - 人工智能学习实训社区](https://aistudio.baidu.com/aistudio/projectoverview/)
 
-- 开发项目
+- 实践项目
   - 识别光栅
   - 区分识别无遮挡人脸与戴口罩人脸
 
@@ -411,9 +410,13 @@
   - 1对1、1对N、N对N，图片间人脸识别
   - 摄像头下实时人脸识别
 
-### **相机标定**
+### **相机**
 
-#### 通识
+#### 相机基础
+
+- **[一文带你搞懂相机内参外参(Intrinsics & Extrinsics) - 知乎](https://zhuanlan.zhihu.com/p/389653208)**
+
+#### 相机标定
 
 - 时间：2022年11月（大二上）
 - 项目：<RM第二十届备赛>
