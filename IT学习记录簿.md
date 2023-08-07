@@ -205,6 +205,14 @@
   - [Linux系统设置开机自动运行脚本的方法实例 - 腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1711876)
   - [linux检测程序是否挂掉并自动重新运行的脚本_wssjn1994的博客-CSDN博客](https://blog.csdn.net/wssjn1994/article/details/83010202)
 
+#### 硬链接&软链接
+
+- 时间：2023年8月（大二下暑假）
+- 内容：
+  - [彻底明白Linux硬链接和软链接 - 知乎](https://zhuanlan.zhihu.com/p/438694636)
+  - [Linux软连接和硬链接 - 知乎](https://zhuanlan.zhihu.com/p/67366919)
+  - [Linux小知识：原来 文 件 链 接 ，是这样的啊！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1CZ4y1v7SR/)
+  
 ---
 
 
