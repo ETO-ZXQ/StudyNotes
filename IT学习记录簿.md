@@ -9,7 +9,7 @@
 #### C++基础
 
 - 时间：2019年1月（高一上寒假）
-- 项目：<江津中学信息学奥赛培训>
+- 时期：<江津中学信息学奥赛培训>
 - 渠道：
   - 书籍  
     - 《CCF中学生计算机程序设计-入门篇》
@@ -21,7 +21,7 @@
 #### C基础
 
 - 时间：2022年1月（大一上寒假）
-- 项目：<大学C语言课程自学>
+- 时期：<大学C语言课程自学>
 - 渠道：
   - 书籍  
     - 《C Primer Plus（第6版）中文版》
@@ -35,7 +35,7 @@
 #### C++基础（泛型、函数重载、命名空间）
 
 - 时间：2022年7月（大一下暑假）
-- 项目：<服务机器人实验室考核>
+- 时期：<服务机器人实验室考核>
 - 渠道：
   - 书籍  
     - 《C++ Primer Plus（第6版）中文版》
@@ -47,7 +47,7 @@
 #### C++提高（引用、类与对象、模板、C++STL）
 
 - 时间：2023年1月（大二上寒假）
-- 项目：<蓝桥杯备赛>
+- 时期：<蓝桥杯备赛>
 - 渠道：
   - 书籍  
     - 《C++ Primer Plus（第6版）中文版》
@@ -61,7 +61,7 @@
 #### Python基础
 
 - 时间：2022年3月（大一下）
-- 项目：<电宇智控实验室考核-视觉组>
+- 时期：<电宇智控实验室考核-视觉组>
 - 渠道：
   - 书籍  
     - 《Python编程：从入门到实践》
@@ -72,7 +72,7 @@
 #### Python类（加深）
 
 - 时间：2022年10月（大二上）
-- 项目：<RM实验室视觉组考核>
+- 时期：<RM实验室视觉组考核>
 - 渠道：
   - B站视频教程
     - [Python类和模块(Class, Module)【Python一周入门教程6】](https://www.bilibili.com/video/BV1UE411R7mq/)
@@ -90,7 +90,7 @@
 #### Python模块
 
 - 时间：2022年8月（大二下暑假）
-- 项目：<>
+- 时期：<>
 - 渠道：
   - 帖子
     - [Python3 模块 | 菜鸟教程](https://www.runoob.com/python3/python3-module.html)
@@ -103,7 +103,7 @@
 #### 多线程基础（C++）
 
 - 时间：2023年1月（大二上寒假）
-- 项目：<RM第二十届备赛>
+- 时期：<RM第二十届备赛>
 - 渠道：
   - B站视频教程
     - [多线程编程：一次性搞懂线程同步机制](https://www.bilibili.com/video/BV1oQ4y1C73G/)
@@ -123,7 +123,7 @@
 #### CMake
 
 - 时间：2023年1月（大二上寒假）
-- 项目：<RM第二十届备赛>
+- 时期：<RM第二十届备赛>
 - 渠道：
   - B站视频教程
     - [软件构建: CMake 快速入门](https://www.bilibili.com/video/BV1rR4y1E7n9/)
@@ -144,7 +144,7 @@
 #### 数据结构与算法基础
 
 - 时间：2023年1月（大二上寒假）
-- 项目：<蓝桥杯备赛>
+- 时期：<蓝桥杯备赛>
 - 渠道：
   - 书籍
     - 《算法图解》
@@ -173,7 +173,7 @@
 #### Linux/Ubuntu基础
 
 - 时间：2022年7月（大一下暑假）
-- 项目：<服务机器人实验室考核>
+- 时期：<服务机器人实验室考核>
 - 渠道：
   - B站视频教程
     - [黑马程序员Python教程_600集Python从入门到精通教程（懂中文就能学会）](https://www.bilibili.com/video/BV1ex411x7Em/)【前半部分】
@@ -181,7 +181,7 @@
 #### Linux系统目录、Linux命令、Linux环境变量
 
 - 时间：2023年3月（大二下）
-- 项目：<RM第二十届备赛>
+- 时期：<RM第二十届备赛>
 - 内容：
   - [Linux文件目录结构一览表](http://c.biancheng.net/view/2833.html)
   - [Linux【基础篇】—— linux操作系统目录结构、运行级别介绍](https://blog.csdn.net/weixin_53072519/article/details/123443658)
@@ -196,7 +196,7 @@
 #### Shell脚本、Linux定时、自启动、程序监测
 
 - 时间：2023年3月（大二下）
-- 项目：<RM第二十届备赛>
+- 时期：<RM第二十届备赛>
 - 内容：
   - [Shell 教程 | 菜鸟教程](https://www.runoob.com/linux/linux-shell.html)
   - [Linux Crontab 定时任务 | 菜鸟教程](https://www.runoob.com/w3cnote/linux-crontab-tasks.html)
@@ -217,7 +217,7 @@
 #### 51单片机基础
 
 - 时间：2022年2月（大一上寒假）
-- 项目：<电宇智控实验室考核-电子电控组>
+- 时期：<电宇智控实验室考核-电子电控组>
 - 渠道：
   - B站视频教程
     - [51单片机入门教程-2020版 程序全程纯手打 从零开始入门](https://www.bilibili.com/video/BV1Mb411e7re/?spm_id_from=333.337.search-card.all.click)
@@ -239,7 +239,7 @@
 #### Python爬虫基础
 
 - 时间：2022年6月（大一下期末暑假中）
-- 项目：<心血来潮！想实现每日自动健康打卡>
+- 时期：<心血来潮！想实现每日自动健康打卡>
 - 渠道：
   - B站视频教程
     - [2020年Python爬虫全套课程（学完可做项目）](https://www.bilibili.com/video/BV1Yh411o7Sz?spm_id_from=333.337.search-card.all.click)
@@ -273,7 +273,7 @@
 #### OpenCV基础（Python）
 
 - 时间：2022年3月（大一下）
-- 项目：<电宇智控实验室考核-视觉组>
+- 时期：<电宇智控实验室考核-视觉组>
 - 渠道：
   - 书籍  
     - 《OpenCV轻松入门：面向Python》
@@ -295,7 +295,7 @@
 #### 数据集制作
 
 - 时间：2023年8月（大二下暑假）
-- 项目：<中国机器人大赛先进视觉赛>
+- 时期：<中国机器人大赛先进视觉赛>
 - 渠道：
   - 帖子：
     - [深度学习常用数据集介绍与下载（附网盘链接）-CSDN博客](https://blog.csdn.net/qq_32892383/article/details/108865940)
@@ -309,7 +309,7 @@
 #### 硬件
 
 - 时间：2023年8月（大二下暑假）
-- 项目：<中国机器人大赛先进视觉赛>
+- 时期：<中国机器人大赛先进视觉赛>
 - 渠道：
   - 帖子：
       - **[Jetson Nano 从入门到实战（案例：Opencv配置、人脸检测、二维码检测）-CSDN博客](https://blog.csdn.net/qianbin3200896/article/details/103760640)**
@@ -319,7 +319,7 @@
 #### 深度学习-卷积神经网络基础
 
 - 时间：2022年4月（大一下）
-- 项目：<电宇智控实验室考核-视觉组>
+- 时期：<电宇智控实验室考核-视觉组>
 - 渠道：
   - 书籍  
     - 《深度学习图解》
@@ -350,7 +350,7 @@
 #### YOLOv3
 
 - 时间：2022年5月（大一下）
-- 项目：<电宇智控实验室考核-视觉组>
+- 时期：<电宇智控实验室考核-视觉组>
 - 渠道：
   - B站视频教程
     - [冒死上传！花9580买来的【目标检测YOLO算法】课程，YOLOv1/v2/v3/v4/v5全套课程一次学...](https://www.bilibili.com/video/BV1744y1G7Zb?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click)
@@ -365,7 +365,7 @@
 #### YOLOv5
 
 - 时间：2022年11月（大二上）
-- 项目：<RM第二十届备赛>
+- 时期：<RM第二十届备赛>
 - 内容：
   - 复习：[【yolov3详解】一文让你读懂yolov3目标检测原理](https://blog.csdn.net/weixin_39615182/article/details/109752498)
   - 复习：[【深度学习小常识】什么是mAP？-CSDN博客](https://blog.csdn.net/shuiyixin/article/details/86349643)
@@ -389,7 +389,7 @@
 #### SeetaFace2
 
 - 时间：2022年7月（大一下暑假）
-- 项目：<服务机器人实验室考核>
+- 时期：<服务机器人实验室考核>
 - 渠道：
   - GitHub
     - [SeetaFace2 C++ 官方开发文档](https://github.com/seetaface/SeetaFaceEngine2/blob/master/example/C++/README.md)
@@ -419,7 +419,7 @@
 #### 相机标定
 
 - 时间：2022年11月（大二上）
-- 项目：<RM第二十届备赛>
+- 时期：<RM第二十届备赛>
 - 渠道：
   - [3.1 相机标定的基本概念](https://www.bilibili.com/video/BV14A4y1o7Em/)
   - [从相机模型到立体视觉（内含相机标定）](https://www.bilibili.com/video/BV18J411U7DS/)
@@ -429,7 +429,7 @@
 #### PnP
 
 - 时间：2022年11月（大二上）
-- 项目：<RM第二十届备赛>
+- 时期：<RM第二十届备赛>
 - 渠道：
   - [PnP(Perspective-n-Point)问题：各种算法总结分析 - 知乎](https://zhuanlan.zhihu.com/p/399140251)
   - [视觉SLAM位姿求解方法-P3P：基本原理与代码讲解（待更新） - 知乎](https://zhuanlan.zhihu.com/p/140077137)
@@ -451,7 +451,7 @@
 #### ROS基础
 
 - 时间：2022年7月（大一下暑假）
-- 项目：<服务机器人实验室考核>
+- 时期：<服务机器人实验室考核>
 - 渠道：
   - B站视频教程
     - [【Autolabor初级教程】ROS机器人入门_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Ci4y1L7ZZ/?spm_id_from=333.337.search-card.all.click)
@@ -466,7 +466,7 @@
 #### ROS2
 
 - 时间：2023年7月（大二下暑假）
-- 项目：<大创机械臂项目>
+- 时期：<大创机械臂项目>
 - 渠道：
   - B站视频教程
     - [【鱼香ROS】动手学ROS2|ROS2基础入门到实践教程|小鱼带你手把手学习ROS2_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1gr4y1Q7j5/)
@@ -482,12 +482,12 @@
 
 ---
 
-## IT基础知识
+## IT小模块
 
 ### Markdown
 
 - 时间：2022年5月（大一下）
-- 项目：<电宇智控实验室考核-视觉组>
+- 时期：<电宇智控实验室考核-视觉组>
 - 渠道：
   - 网站
     - [Markdown 官方教程](https://markdown.com.cn/)
@@ -499,7 +499,7 @@
 ### 正则表达式
 
 - 时间：2022年7月（大一下暑假）
-- 项目：<服务机器人实验室考核>
+- 时期：<服务机器人实验室考核>
 - 渠道：
   - B站视频教程
     - [10分钟快速掌握正则表达式](https://www.bilibili.com/video/BV1da4y1p7iZ/?spm_id_from=333.337.search-card.all.click)
@@ -511,7 +511,7 @@
 ### 卡尔曼滤波
 
 - 时间：2022年11月（大二上）
-- 项目：<RM第二十届备赛>
+- 时期：<RM第二十届备赛>
 - 渠道：
   - [KalmanFilter.NET](https://www.kalmanfilter.net/CN/default_cn.aspx)
   - [从放弃到精通！卡尔曼滤波从理论到实践~](https://www.bilibili.com/video/BV1Rh41117MT/)
@@ -521,7 +521,6 @@
 ### Git
 
 - 时间：2023年7月（大二下暑假）
-- 项目：<笔记需要>
 - 渠道：
   - B站视频教程
     - [【狂神说Java】Git最新教程通俗易懂](https://www.bilibili.com/video/BV1FE411P7B3)
@@ -531,7 +530,15 @@
   - 网站
     - [Learn Git Branching](https://learngitbranching.js.org/?locale=zh_CN)
     - [Git 教程 | 菜鸟教程](https://www.runoob.com/git/git-tutorial.html)
-  
+
+### Anaconda
+
+- 时间：2023年8月（大二下暑假）
+- 内容：
+  - B站视频教程
+    - [【Anaconda简介】带你快速入门](https://www.bilibili.com/video/BV1GE411T7rQ/)
+  - 帖子
+    - **[还是搞不懂Anaconda是什么?读这一篇文章就够了-CSDN博客](https://blog.csdn.net/weixin_56197703/article/details/124630222)**
 
 ---
 
