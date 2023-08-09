@@ -90,7 +90,6 @@
 #### Python模块
 
 - 时间：2022年8月（大二下暑假）
-- 时期：<>
 - 渠道：
   - 帖子
     - [Python3 模块 | 菜鸟教程](https://www.runoob.com/python3/python3-module.html)
@@ -212,6 +211,14 @@
   - [彻底明白Linux硬链接和软链接 - 知乎](https://zhuanlan.zhihu.com/p/438694636)
   - [Linux软连接和硬链接 - 知乎](https://zhuanlan.zhihu.com/p/67366919)
   - [Linux小知识：原来 文 件 链 接 ，是这样的啊！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1CZ4y1v7SR/)
+
+#### 动态链接库
+
+- 时间：2023年8月（大二下暑假）
+- 内容：
+  - **[【底层】动态链接库(dll)是如何工作的？_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1vB4y1V7gR/)**
+  - [DLL文件是啥？找不到怎么办？_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV18Y4y1P7oK/)
+  - [厉害了，Python也能使用动态链接库，你get到了没 - 知乎](https://zhuanlan.zhihu.com/p/509280830)
   
 ---
 
