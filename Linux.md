@@ -24,6 +24,10 @@ ln -s /home/zxq/Downloads/ /home/zxq/Desktop/下载
 1. 一定要用绝对路径
 2. 文件和文件夹均可创建软链接
 
-## 文件夹
+## 符号
 
 `/usr` Unix system resources
+
+`/etc` 在Linux系统中，"etc"文件夹的名称来自于英文单词"et cetera"（缩写为"etc"），意思是"以及其他"。这个文件夹被用于存放各种系统配置文件，如网络配置、服务配置、软件配置等。命名为"etc"主要是为了说明该文件夹中包含了许多其他的配置文件，而不仅仅是一些特定的文件。
+
+`.cc` 为(linux/unix)C++文件后缀，vs vim emacs都可以打开。
