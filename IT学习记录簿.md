@@ -430,12 +430,23 @@
 #### 相机基础
 
 - **[一文带你搞懂相机内参外参(Intrinsics & Extrinsics) - 知乎](https://zhuanlan.zhihu.com/p/389653208)**
+- [工业相机编程模型和流程-CSDN博客](https://blog.csdn.net/wenzhou1219/article/details/45874779)
+
+#### 摄像头数据输出格式
+
+- 时间：2023年8月（大二下暑假）
+- 时期：<中国机器人大赛先进视觉赛>
+- 内容：
+  - [YUV、RGB、RAW DATA 3种Sensor输出格式 详解_raw data yuv-CSDN博客](https://blog.csdn.net/lx123010/article/details/124200349)
+  - [RGBD深度相机数据格式-存储读取-可视化-CSDN博客](https://blog.csdn.net/martin20150405/article/details/99298132)
+  - [3D相机的数据处理方式 - 知乎](https://zhuanlan.zhihu.com/p/343095601)
+
 
 #### 相机标定
 
 - 时间：2022年11月（大二上）
 - 时期：<RM第二十届备赛>
-- 渠道：
+- 内容：
   - [3.1 相机标定的基本概念](https://www.bilibili.com/video/BV14A4y1o7Em/)
   - [从相机模型到立体视觉（内含相机标定）](https://www.bilibili.com/video/BV18J411U7DS/)
   - [计算机视觉-相机标定(Camera Calibration)](https://blog.csdn.net/weixin_43890415/article/details/117084459)
@@ -445,7 +456,7 @@
 
 - 时间：2022年11月（大二上）
 - 时期：<RM第二十届备赛>
-- 渠道：
+- 内容：
   - [PnP(Perspective-n-Point)问题：各种算法总结分析 - 知乎](https://zhuanlan.zhihu.com/p/399140251)
   - [视觉SLAM位姿求解方法-P3P：基本原理与代码讲解（待更新） - 知乎](https://zhuanlan.zhihu.com/p/140077137)
   - [ICP算法的原理与实现](https://blog.csdn.net/kksc1099054857/article/details/80280964)
