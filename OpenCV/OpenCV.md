@@ -314,3 +314,172 @@ cv2.imshow("diff", diff)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
+### 学习考核题
+
+#### 第一题 图像的读取、几何变换、显示与保存
+
+> 编写调用了OpenCV(python)库的.py程序，读取任意一张图像，将其绕x轴、y轴同时翻转后显示并保存为 dst1.png
+
+```Python
+import cv2
+import numpy
+
+img=cv2.imread("beauty.png")
+dst = cv2.flip(img, -1)
+cv2.imshow("dst1.png", dst)
+r = cv2.imwrite("dst1.png", dst)
+
+if r==True:
+    print("图像保存成功！")
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+![beauty.png](./images/beauty.png "beauty.png")
+![dst1.png](./images/dst1.png "dst1.png")
+
+#### 第二题 边缘检测
+
+> 使用opencv提取图片 lab_logo.jpg 轮廓，要求代码生成二份result图片，分别为：<br>
+1、原图二值化后的图片result_1.png；<br>
+2、原图的轮廓提取图片result_2.png，轮廓由红线标出；<br>
+
+```Python
+import cv2
+import numpy
+
+img = cv2.imread("lab_logo.jpg", 0)
+
+# 阈值处理
+retval, img = cv2.threshold(img, 80, 255, cv2.THRESH_BINARY)
+cv2.imwrite("result_1.png", img)
+
+# 轮廓提取
+contours, hierarchy = cv2.findContours(img, cv2.RETR_LIST, cv2.CHAIN_APPROX_NONE)
+dst = numpy.zeros(img.shape, numpy.uint8)
+dst = cv2.drawContours(dst, contours, -1, 255)
+
+b = numpy.zeros(img.shape, numpy.uint8)
+g = numpy.zeros(img.shape, numpy.uint8)
+result_2 = cv2.merge([b, g, dst])
+cv2.imwrite("result_2.png", result_2)
+```
+
+![lab_logo.jpg](./images/lab_logo.jpg "lab_logo.jpg")
+![result_1.png](./images/result_1.png "result_1.png")
+![result_2.png](./images/result_2.png "result_2.png")
+
+#### 第三题 验证码去噪
+
+> 利用自己所学的OpenCV知识对验证码图像 identify_code.png 进行去噪，将其中的干扰线条、噪点去除，提取出只含纯净字符的图片。将清晰的验证码图像显示并保存为 clear_identify_code.png ，提取的字符越清晰饱满，得分越高。
+
+```Python
+import cv2
+import numpy
+
+img = cv2.imread("identify_code.png", 0)
+
+# 阈值处理
+retval, img = cv2.threshold(img, 168, 255, cv2.THRESH_BINARY_INV)
+# 开运算
+K1 = numpy.ones((5,5), numpy.uint8)
+img = cv2.morphologyEx(img, cv2.MORPH_OPEN, K1)
+# 闭运算
+K2 = numpy.ones((2,2), numpy.uint8)
+img = cv2.morphologyEx(img, cv2.MORPH_CLOSE, K2)
+# 腐蚀
+img = cv2.erode(img, K2)
+
+# 滤波
+img1 = cv2.GaussianBlur(img,(11,11), 0, 0)
+img2 = cv2.GaussianBlur(img1,(11,11), 0, 0)
+
+# 阈值处理
+retval, dst = cv2.threshold(img2, 64, 255, cv2.THRESH_BINARY_INV)
+
+cv2.imshow("identify_code.png", dst)
+cv2.imwrite("clear_identify_code.png", dst)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+![identify_code.png](./images/identify_code.png "identify_code.png")
+![clear_identify_code.png](./images/clear_identify_code.png "clear_identify_code.png")
+
+#### 第四题 绘制公路轮廓与黄线
+
+> 活用OpenCV的直线检测方法，通过图像转换、模糊降噪、边缘检测、调整函数阈值、颜色提取等手段，尽量实现：<br>
+1、大致标注出图 road1.jpg 所示公路的两侧轮廓<br>
+2、大致标志出图 road2.jpg 所示公路的中间黄线<br>
+
+```Python
+import cv2
+import numpy
+
+img1 = cv2.imread("road1.jpg")
+img2 = cv2.imread("road2.jpg")
+
+# ------------img1------------
+imgg1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
+
+# 阈值处理
+retval, imgg1 = cv2.threshold(imgg1, 140, 255, cv2.THRESH_BINARY)
+# Canny
+edges = cv2.Canny(imgg1, 216, 168)
+# 霍夫变换
+lines = cv2.HoughLinesP(edges, 1, numpy.pi/180, 68, minLineLength=216, maxLineGap=32)
+for line in lines:
+    x1, y1, x2, y2 = line[0]
+    img1 = cv2.line(img1, (x1,y1), (x2,y2), (0,0,255), 2, cv2.LINE_AA) # 绘制
+
+cv2.imshow("img1", img1)
+cv2.imwrite("result1.png", img1)
+
+
+# ------------img2------------
+imgg2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
+mask = numpy.zeros(imgg2.shape, numpy.uint8)
+# 阈值处理
+retval, imgg2 = cv2.threshold(imgg2, 128, 255, cv2.THRESH_BINARY)
+
+# 闭 开
+K = numpy.ones((5,5), numpy.uint8)
+imgg2 = cv2.morphologyEx(imgg2, cv2.MORPH_CLOSE, K) # 膨胀 腐蚀
+imgg2 = cv2.morphologyEx(imgg2, cv2.MORPH_OPEN, K)  # 腐蚀 膨胀
+
+# 霍夫变换
+lines2 = cv2.HoughLinesP(imgg2, 1, numpy.pi/180, 256, minLineLength=316, maxLineGap=4)
+for line in lines2:
+    x1, y1, x2, y2 = line[0]
+    mask = cv2.line(mask, (x1,y1), (x2,y2), 255, 10, cv2.LINE_AA) # 绘制
+
+# 膨胀
+K = numpy.ones((45,45), numpy.uint8)
+mask = cv2.dilate(mask, K)
+
+mask_dst = cv2.bitwise_and(mask, imgg2)
+
+b, g, r = cv2.split(img2)
+
+retval, mask_dst_f = cv2.threshold(mask_dst, 127, 255, cv2.THRESH_BINARY_INV)
+b = cv2.bitwise_and(b, mask_dst_f)
+g = cv2.bitwise_and(g, mask_dst_f)
+r = cv2.bitwise_or(r, mask_dst)
+
+bgr = cv2.merge([b,g,r])
+
+cv2.imshow("bgr", bgr)
+cv2.imwrite("result2.png", bgr)
+
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+![road1.jpg](./images/road1.jpg "road1.jpg")
+![result1.png](./images/result1.png "result1.png")
+![road2.jpg](./images/road2.jpg "road2.jpg")
+![result2.png](./images/result2.png "result2.png")
