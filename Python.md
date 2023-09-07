@@ -95,3 +95,35 @@ result = lib.foo(args)
 >>>help(a.append)          # 显示list的append方法的帮助
 ……显示帮助信息……
 ```
+
+## NumPy
+
+> NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
+
+```Python
+# The standard way to import NumPy:
+import numpy as np
+```
+
+### `numpy.lexsort`
+
+```Python
+numpy.lexsort(keys, axis=-1)
+```
+
+Perform an indirect stable sort using a sequence of keys.
+
+Given multiple sorting keys, which can be interpreted as columns in a spreadsheet, lexsort returns an array of integer indices that describes the sort order by multiple columns. The last key in the sequence is used for the primary sort order, the second-to-last key for the secondary sort order, and so on. The keys argument must be a sequence of objects that can be converted to arrays of the same shape. If a 2D array is provided for the keys argument, its rows are interpreted as the sorting keys and sorting is according to the last row, second last row etc.
+
+Parameters:
+
+- `keys`:(k, N) array or tuple containing k (N,)-shaped sequences<br>
+    The k different “columns” to be sorted. The last column (or row if keys is a 2D array) is the primary sort key.
+
+- `axis`:int, optional<br>
+    Axis to be indirectly sorted. By default, sort over the last axis.
+
+Returns:
+
+- `indices`:(N,) ndarray of ints<br>
+    Array of indices that sort the keys along the specified axis.

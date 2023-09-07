@@ -2,6 +2,50 @@
 
 ## opencv-python
 
+### 常用函数
+
+#### 在图像上绘制矩形`cv2.rectangle`
+
+```Python
+cv2.rectangle(img, pt1, pt2, color, thickness, lineType, shift)
+```
+
+参数：
+
+- `img`：要在其上绘制矩形的图像。
+- `pt1`：矩形的起始坐标（左上角）。坐标表示为两个值的元组，即(X坐标值，Y坐标值)。
+- `pt2`：矩形的结束坐标（右下角）。坐标表示为两个值的元组，即(X坐标值，Y坐标值)。
+- `color`：矩形边界线的颜色。通过一个元组指定BGR。例如：(255，0，0)为蓝色。
+- `thickness`：矩形边框线的粗细像素。厚度-1像素将以指定的颜色填充矩形形状。
+
+#### 在图像上绘制文本字符串`cv2.putText`
+
+```Python
+def putText(
+    img: MatLike,
+    text: str,
+    org: Point,
+    fontFace: int,
+    fontScale: float,
+    color: Scalar,
+    thickness: int = ...,
+    lineType: int = ...,
+    bottomLeftOrigin: bool = ...
+) -> MatLike: ...
+```
+
+参数：
+
+- `img`：要在其上绘制文本的图像。
+- `text`：要绘制的文本字符串。
+- `org`：它是图像中文本字符串左下角的坐标。坐标表示为两个值的元组，即(X坐标值，Y坐标值)。
+- `fontFace`：字体类型。一些字体类型是FONT_HERSHEY_SIMPLEX，FONT_HERSHEY_PLAIN等。
+- `fontScale`：字体比例因子乘以font-specific基本大小。
+- `color`：要绘制的文本字符串的颜色。通过一个元组指定BGR。例如：(255，0，0)为蓝色。
+- `thickness`：线的粗细像素。
+- `lineType`：可选参数，它给出了要使用的行的类型。
+- `bottomLeftOrigin`：可选参数。如果为true，则图像数据原点位于左下角。否则，它位于左上角。
+
 ### 学习测试实例
 
 *PythonApplication1.py*
