@@ -29,7 +29,6 @@ ln -s /home/zxq/Downloads/ /home/zxq/Desktop/下载
 - [在 Linux 中如何编写基本的 udev 规则 - 知乎](https://zhuanlan.zhihu.com/p/33932734)
 - [LINUX下 Udev详解 - 知乎](https://zhuanlan.zhihu.com/p/373517974)
 
-
 ## 符号
 
 `/usr` Unix system resources
