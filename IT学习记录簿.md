@@ -496,13 +496,14 @@
   - ROS Noetic
   - IDE：Visual Studio Code
 
-#### ROS2
+#### ROS2基础
 
-- 时间：2023年7月（大二下暑假）
+- 时间：2023年7月（大二下暑假）、2023年10月（大三上）
 - 时期：<大创机械臂项目>
 - 渠道：
   - B站视频教程
     - [【鱼香ROS】动手学ROS2|ROS2基础入门到实践教程|小鱼带你手把手学习ROS2_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1gr4y1Q7j5/)
+    - [【古月居】古月·ROS2入门21讲 | 带你认识一个全新的机器人操作系统_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV16B4y1Q7jQ/)
 - 环境:
   - 语言：C++
   - 系统：VMware® Workstation 16 Pro/Ubuntu 20.04.4 LTS
@@ -572,6 +573,29 @@
     - [【Anaconda简介】带你快速入门](https://www.bilibili.com/video/BV1GE411T7rQ/)
   - 帖子
     - **[还是搞不懂Anaconda是什么?读这一篇文章就够了-CSDN博客](https://blog.csdn.net/weixin_56197703/article/details/124630222)**
+
+### LaTeX公式
+
+- 时间：2023年10月（大三上）
+- 渠道&内容：
+  - B站视频教程
+    - [如何优雅的编辑数学公式？LaTeX公式入门_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV14g4y1q7pb/)
+    - [LaTeX公式保姆级教程 (以及其中的各种细节)_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1no4y1U7At/)
+- 工具网站：
+  - [在线LaTeX公式编辑器-编辑器](https://www.latexlive.com/)
+  - [公式识别](https://www.simpletex.cn/ai/latex_ocr)
+
+### MATLAB
+
+- 时间：2023年11月（大三上）
+- 渠道&内容：
+  - B站视频教程
+    - [1小时Matlab速成教程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1hE411Q7T4/)
+    - [功能强大的MATLAB实时脚本_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1z34y1K7hm/)
+    - 【避雷：太烂了】[0零基础入门matlab教程基础版，听懂人话就能学会！毕业设计/研究生/神经网络工具箱/机器学习/数学建模matlab_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV13D4y1Q7RS/)
+  - **ChatGPT**
+- 安装：[最新MATLAB R2021b超详细安装教程（附完整安装文件） - 思绪无限 - 博客园](https://www.cnblogs.com/sixuwuxian/p/15858196.html)
+- 版本：MATLAB R2021b
 
 ---
 
